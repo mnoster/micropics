@@ -1,0 +1,64 @@
+//@import:'ext-styles.css';
+//stylings
+@maincolor: #b5b8b7;
+.white-shadow-font{
+  background-color: transparent;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+//interpolated variables
+@navigation: navbar-inverse, navbar-nav;
+
+body{
+  background-color:darkslategrey;
+}
+nav{
+  color: @maincolor;
+}
+
+.@{navigation}{
+  background: @maincolor;;
+  background: -webkit-linear-gradient(white, transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white,transparent); /* Standard syntax (must be last) */
+  border:none;
+}
+#keywords{
+  background-color: @maincolor;
+  border-radius:3px;
+  padding:5px;
+}
+.navbar.navbar-inverse .navbar-nav, .dropdown-toggle{
+  >.active{
+    >a{
+      background-color:transparent;
+      color:white;
+      text-shadow: 1px 1px black;
+    }
+  }
+}
+.navbar-inverse .navbar-nav{
+  >li{
+    >a{
+      &:extend(.navbar-inverse .navbar-brand);
+      .white-shadow-font;
+    }
+  }
+}
+.navbar-inverse .navbar-brand{
+  .white-shadow-font;
+  //color:red;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color:transparent;
+}
+
+#keywords-contain{
+  display:flex;
+  flex-direction:column;
+}
+#keywords{
+  width:200px;
+  list-style-type:none;
+}

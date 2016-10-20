@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+    <!---->
+    Big O is used to calculate: best case scenario
+</h1>
+<p>
+
+</p>
+<script>
+    //  BINARY SEARCH
+    var a = [1, 2, 4, 6, 1, 100, 0, 10000];
+    a.sort(function (a, b) {
+        return a - b;
+    });
+    console.log('a,', a);
+    var index =a.length / 2;
+    function binarySearch(arr, i) {
+        var mid = Math.floor(arr.length / 2);
+        index += .25;
+        console.log(arr[mid], i);
+        if (arr[mid] === i) {
+            console.log('match', arr[mid], i, "index:" , index);
+            return arr[mid];
+        } else if (arr[mid] < i && arr.length > 1) {
+            console.log('mid lower', arr[mid], i);
+            index += mid;
+            return binarySearch(arr.splice(mid, Number.MAX_VALUE), i);
+        } else if (arr[mid] > i && arr.length > 1) {
+            index -= mid;
+            console.log('mid higher', arr[mid], i);
+            return binarySearch(arr.splice(0, mid), i);
+        } else {
+            console.log('not here', i);
+            return -1;
+        }
+        return a;
+    }
+    var result = binarySearch(a, 100);
+    console.log(result);
+</script>
+<script>
+    //Quicksort
+    //the idea is to add the index as last sorting term so that no two elements are now "the same"
+    // and if everything else is the same the original index will be the discriminating factor.
+    function stableSort(v, f) {
+        if (f === undefined) {
+            f = function(a, b) {
+                a = ""+a; b = ""+b;
+                return a < b ? -1 : (a > b ? 1 : 0);
+            }
+        }
+        var dv = [];
+        for (var i=0; i<v.length; i++) {
+            dv[i] = [v[i], i];
+        }
+        dv.sort(function(a, b){
+            return f(a[0], b[0]) || (a[1] - b[1]);
+        });
+        for (var i=0; i<v.length; i++) {
+            v[i] = dv[i][0];
+        }
+    }
+</script>
+
+</body>
+</html>

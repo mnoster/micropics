@@ -7,18 +7,18 @@
     <meta name="description" content="PsychOrigins.com is a free academic search engine for researchers and health clinicians">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/micropics/src/css/pre-style.css">
     <!--    Goog Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/micropics/src/css/pre-style.css">
     <!--    AOS -->
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="">
 </head>
-<body>
+<body ng-app="microPics">
 <nav class="navbar navbar-inverse" id="nav">
     <div class="contatiner-fluid">
         <div class="navbar-header">
@@ -60,7 +60,64 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
 <!--    AOS script-->
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-<script src="/micropics/builds/js/main.min.js" type="javascript"></script>
+<script>
+
+    var app = angular.module('microPics', ['ui.router']);
+
+
+    app.config(function ($stateProvider, $locationProvider, $urlRouterProvider) {
+        $stateProvider.caseInsensitiveMatch = true;
+        $urlRouterProvider.otherwise('/home');
+        $stateProvider
+            .state("/home", {
+                //url parameters are prefixed with a colon ":"
+                url: "/home",
+                templateUrl: "/micropics/builds/templates/home.php",
+                controller: "mainController",
+                controllerAs: "mc"
+            })
+            .state("pictures", {
+                url: "/pictures",
+                templateUrl: "templates/pictures.php",
+                controller: "pictureController",
+                controllerAs: "pc",
+                resolve: {
+                    getPictures: function ($http) {
+                        return $http.get("getPictures.php")
+                            .then(function (response) {
+                                return response.data;
+                            });
+                    }
+                }
+            })
+            .state("videos", {
+                url: "/videos",
+                templateUrl: "templates/videos.php",
+                controller: "videoController",
+                controllerAs: "vc"
+            })
+            .state("categories", {
+                url: "/categories",
+                templateUrl: "templates/categories.php",
+                controller: "catController",
+                controllerAs: "cc"
+            });
+    });
+
+    app.controller('pictureController', function (getPictures, $state, $location) {
+        var self = this;
+        self.imageSearch = function () {
+            if (self.name) {
+                $location.url('/imageSearch/' + self.name);
+            } else {
+                $location.url('/imageSearch');
+            }
+        };
+        self.reloadData = function () {
+            $state.reload();
+        };
+    });
+</script>
 <script>AOS.init();</script>
 </body>
 </html>

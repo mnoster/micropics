@@ -55,6 +55,9 @@ nav {
   width: 200px;
   list-style-type: none;
 }
+a {
+  cursor: pointer;
+}
 .title {
   font-family: 'Comfortaa', cursive;
   text-shadow: 2px 1px black;
@@ -65,13 +68,19 @@ nav {
 .categories {
   font-family: 'Comfortaa', cursive;
   list-style-type: none;
-  color: orange;
-  background-color: rgba(107, 175, 111, 0.76);
+  color: #ffbd00;
   display: inline-block;
   float: left;
-  padding: 0 10px 5px 10px;
+  padding: 0 10px 5px 4px;
   border-radius: 2px;
   text-shadow: 1px 1px black;
+  font-weight: 600;
+}
+.categories li,
+.categories h5 {
+  padding: -3px 0 -3px 9px;
+  margin: -3px 0 -3px 9px;
+  letter-spacing: 3px;
 }
 .title-row {
   text-align: center;

@@ -4,7 +4,7 @@
   text-shadow: 1px 1px black;
 }
 body {
-  background-color: darkslategrey;
+  background: url('/micropics/builds/images/forest.jpg') no-repeat center fixed;
 }
 nav {
   color: #b5b8b7;
@@ -54,4 +54,25 @@ nav {
 #keywords {
   width: 200px;
   list-style-type: none;
+}
+.title {
+  font-family: 'Comfortaa', cursive;
+  text-shadow: 2px 1px black;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+.categories {
+  font-family: 'Comfortaa', cursive;
+  list-style-type: none;
+  color: orange;
+  background-color: rgba(107, 175, 111, 0.76);
+  display: inline-block;
+  float: left;
+  padding: 0 10px 5px 10px;
+  border-radius: 2px;
+  text-shadow: 1px 1px black;
+}
+.title-row {
+  text-align: center;
 }

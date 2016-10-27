@@ -63,6 +63,9 @@ nav{
   width:200px;
   list-style-type:none;
 }
+a{
+  cursor:pointer;
+}
 //-----------------home-----------------
 .title{
   font-family: @mainfont;
@@ -74,13 +77,18 @@ nav{
 .categories{
   font-family: @mainfont;
   list-style-type: none;
-  color:orange;
-  background-color: rgba(107, 175, 111, 0.76);
+  color: #ffbd00;
   display: inline-block;
   float: left;
-  padding:0 10px 5px 10px;
+  padding:0 10px 5px 4px;
   border-radius: 2px;
   text-shadow: 1px 1px black;
+  font-weight: 600;
+  li,h5{
+    padding:-3px 0 -3px 9px;
+    margin: -3px 0 -3px 9px;
+    letter-spacing:3px;
+  }
 }
 .title-row{
   text-align: center;

@@ -77,17 +77,28 @@ a{
 .categories{
   font-family: @mainfont;
   list-style-type: none;
-  color: #ffbd00;
+  color: #ffa800;
   display: inline-block;
   float: left;
   padding:0 10px 5px 4px;
   border-radius: 2px;
   text-shadow: 1px 1px black;
-  font-weight: 600;
-  li,h5{
-    padding:-3px 0 -3px 9px;
-    margin: -3px 0 -3px 9px;
-    letter-spacing:3px;
+  background-color: rgba(250, 255, 255, 0.32);
+  margin-left: 5px;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    h5{
+      padding:15px 0 15px 2px;
+      margin: -3px 0 -3px 2px;
+      letter-spacing:2px;
+      font-weight: 700;
+      z-index: 100;
+      border-bottom: 1px solid black;
+      &:hover{
+          color: #ffa800;
+        }
   }
 }
 .title-row{

@@ -6,9 +6,13 @@
 <div class="container-fluid ng-scope">
     <div class="row">
         <ul class="categories">
-            <li><h2>Categories</h2></li>
-            <li><h5>Bugs</h5><hr></li>
-            <li><h5>Plants</h5><hr></li>
+            <h2>Categories</h2>
+            <li><a><h5>Amphibians <span class="caret"></span></h5></a></li>
+            <li><a><h5>Bugs <span class="caret"></span></h5></a></li>
+            <li><a><h5>Micro-invertebrates<span class="caret"></span></h5></a></li>
+            <li><a><h5>Macro-invertebrates<span class="caret"></span></h5></a></li>
+            <li><a><h5>Plants<span class="caret"></span></h5></a></li>
+            <li><a><h5>Sea Life<span class="caret"></span></h5></a></li>
         </ul>
     </div>
 </div>

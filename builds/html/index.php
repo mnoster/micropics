@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <!--    AOS -->
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="">
@@ -57,7 +57,7 @@
 <!--    routing-->
 <!--<script src="http://code.angularjs.org/1.3.15/angular-route.js"></script>-->
 <!--UI Routing Angular-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>;
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
 <!--    AOS script-->
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
 <script src="/micropics/builds/js/main.min.js" type="javascript"></script>

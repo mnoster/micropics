@@ -1,6 +1,7 @@
 //@import:'ext-styles.css';
 //stylings
 @maincolor: #b5b8b7;
+@mainfont:  'Comfortaa', cursive;
 .white-shadow-font{
   background-color: transparent;
   color: white;
@@ -10,7 +11,7 @@
 @navigation: navbar-inverse, navbar-nav;
 
 body{
-  background-color:darkslategrey;
+  background:url('/micropics/builds/images/forest.jpg') no-repeat center fixed;
 }
 nav{
   color: @maincolor;
@@ -61,4 +62,26 @@ nav{
 #keywords{
   width:200px;
   list-style-type:none;
+}
+//-----------------home-----------------
+.title{
+  font-family: @mainfont;
+  text-shadow: 2px 1px black;
+  font-size:50px;
+  font-weight:600;
+  color:white;
+}
+.categories{
+  font-family: @mainfont;
+  list-style-type: none;
+  color:orange;
+  background-color: rgba(107, 175, 111, 0.76);
+  display: inline-block;
+  float: left;
+  padding:0 10px 5px 10px;
+  border-radius: 2px;
+  text-shadow: 1px 1px black;
+}
+.title-row{
+  text-align: center;
 }

@@ -1,54 +1,56 @@
-describe("Load Module", function(){
-var app = angular.module('MicroPics',['ui.router']);
+
+var app = angular.module('microPics', ['ui.router']);
 
 
-it('should configure the providers',function(){
-    app.config(function($stateProvider,$locationProvider){
+app.config(function ($stateProvider, $locationProvider, $urlRouterProvider) {
     $stateProvider.caseInsensitiveMatch = true;
+    $urlRouterProvider.otherwise('/home');
     $stateProvider
-        .state("home",{
+        .state("/home", {
             //url parameters are prefixed with a colon ":"
-            url:"/home",
-            templateUrl:"templates/home.php",
-            controller:"mainController",
+            url: "/home",
+            templateUrl: "/micropics/builds/templates/home.php",
+            controller: "mainController",
             controllerAs: "mc"
         })
-        .state("pictures",{
+        .state("pictures", {
             url: "/pictures",
-            templateUrl:"templates/pictures.php",
-            controller:"pictureController",
+            templateUrl: "templates/pictures.php",
+            controller: "pictureController",
             controllerAs: "pc",
             resolve: {
-                getPictures: function($http){
+                getPictures: function ($http) {
                     return $http.get("getPictures.php")
-                        .then(function(response){
+                        .then(function (response) {
                             return response.data;
                         });
                 }
             }
         })
-        .state("videos",{
-            url:"/videos",
+        .state("videos", {
+            url: "/videos",
             templateUrl: "templates/videos.php",
-            controller:"videoController",
+            controller: "videoController",
             controllerAs: "vc"
+        })
+        .state("categories", {
+            url: "/categories",
+            templateUrl: "templates/categories.php",
+            controller: "catController",
+            controllerAs: "cc"
         });
 });
-});
-it('should load the pictureController',function(){
-    app.controller('pictureController',function(getPictures,$state,$location){
-        var self = this;
-        self.imageSearch = function(){
-            if(self.name){
-                $location.url('/imageSearch/' + self.name);
-            }else{
-                $location.url('/imageSearch');
-            }
-        };
-        self.reloadData = function(){
-            $state.reload();
-        };
-    });
-});
-//UNIT TEST
+
+app.controller('pictureController', function (getPictures, $state, $location) {
+    var self = this;
+    self.imageSearch = function () {
+        if (self.name) {
+            $location.url('/imageSearch/' + self.name);
+        } else {
+            $location.url('/imageSearch');
+        }
+    };
+    self.reloadData = function () {
+        $state.reload();
+    };
 });

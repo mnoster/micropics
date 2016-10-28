@@ -15,6 +15,9 @@ body{
 }
 nav{
   color: @maincolor;
+  .navbar{
+    margin-bottom: 25px;
+  }
 }
 
 .@{navigation}{
@@ -71,8 +74,11 @@ a{
   font-family: @mainfont;
   text-shadow: 2px 1px black;
   font-size:50px;
+  margin-top: 0;
+  margin-bottom: 20px;
   font-weight:600;
   color:white;
+
 }
 .categories{
   font-family: @mainfont;
@@ -103,4 +109,27 @@ a{
 }
 .title-row{
   text-align: center;
+}
+.description{
+  padding:3px;
+  margin:7px 0;
+  background-color: rgba(254, 255, 255, 0.85);
+  width:100%;
+  border-radius: 2px;
+}
+.photo-of-day{
+  .white-shadow-font;
+  font-family: "Times New Roman",Times,'Comfortaa';
+  font-size: 22px;
+  padding: 3px;
+  background-color: rgba(128, 133, 133, 0.32);
+}
+.photo-box{
+  //margin: 2px;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  background-color: black;
+  margin-bottom: 20px;
+
+  overflow: hidden;
 }

@@ -15,6 +15,9 @@ body{
 }
 nav{
   color: @maincolor;
+  .navbar{
+    margin-bottom: 25px;
+  }
 }
 
 .@{navigation}{
@@ -70,9 +73,12 @@ a{
 .title{
   font-family: @mainfont;
   text-shadow: 2px 1px black;
-  font-size:50px;
+  font-size:55px;
+  margin-top: -5px;
+  margin-bottom: 20px;
   font-weight:600;
   color:white;
+
 }
 .categories{
   font-family: @mainfont;
@@ -80,10 +86,10 @@ a{
   color: #ffa800;
   display: inline-block;
   float: left;
-  padding:0 10px 5px 4px;
+  padding:0 8px 5px 8px;
   border-radius: 2px;
   text-shadow: 1px 1px black;
-  background-color: rgba(250, 255, 255, 0.32);
+  background-color: rgba(131, 136, 136, 0.4);
   margin-left: 5px;
     a{
       color: white;
@@ -103,4 +109,53 @@ a{
 }
 .title-row{
   text-align: center;
+}
+.description{
+  padding:5px;
+  margin:7px 0;
+  background-color: rgba(254, 255, 255, 0.85);
+  width:100%;
+  border-radius: 2px;
+}
+.photo-of-day{
+  .white-shadow-font;
+  font-family: "Times New Roman",Times,'Comfortaa';
+  font-size: 22px;
+  padding: 3px;
+  background-color: rgba(112, 117, 117, 0.32);
+}
+.photo-box{
+  //margin: 2px;
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  background-color: black;
+  margin-bottom: 20px;
+  overflow: hidden;
+  &:hover{
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    cursor:pointer;
+  }
+}
+.twitter-logo{
+  height:50px;
+  background-color: white;
+  padding: 3px 10px 3px 10px;
+  margin-top:31px;
+  &:hover{
+    background-color: #00ae90;
+  }
+}
+.facebook-logo{
+  height:50px;
+  background-color: white;
+  padding-right:3px;
+  padding-left:2px;
+  &:hover{
+    background-color: #00ae90;
+  }
+}
+.more-photos{
+  .white-shadow-font;
+  margin-left: 12px;
 }

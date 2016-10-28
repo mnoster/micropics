@@ -16,7 +16,7 @@ body{
 nav{
   color: @maincolor;
   .navbar{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 }
 
@@ -78,7 +78,7 @@ a{
   margin-bottom: 20px;
   font-weight:600;
   color:white;
-
+  letter-spacing:2px;
 }
 .categories{
   font-family: @mainfont;
@@ -137,25 +137,38 @@ a{
     cursor:pointer;
   }
 }
-.twitter-logo{
-  height:50px;
-  background-color: white;
-  padding: 3px 10px 3px 10px;
-  margin-top:31px;
-  &:hover{
-    background-color: #00ae90;
-  }
-}
-.facebook-logo{
-  height:50px;
-  background-color: white;
-  padding-right:3px;
-  padding-left:2px;
-  &:hover{
-    background-color: #00ae90;
-  }
-}
 .more-photos{
   .white-shadow-font;
   margin-left: 12px;
+}
+.main-img{
+  padding: 30px 30px 30px 40px ;
+}
+.spider-list{
+  margin-top:8px;
+  background-color: white;
+  ul{
+    padding-top:8px;
+    padding-left:10px;
+    /* Setup the counter. */
+    counter-reset: spiderCount;
+    list-style-type: none;
+  }
+  li:before{
+    font-family: @mainfont;
+      /* Advance the number. */
+      counter-increment: spiderCount;
+      /* Use the counter number as content. */
+      content: counter(spiderCount) '. ';
+
+    color: #f29b00;
+    font-size: 15px;
+  }
+  li{
+    padding:3px 2px 3px 0;
+  }
+}
+.spider-title{
+  color: white;
+  text-shadow: 1px 1px black;
 }

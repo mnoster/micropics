@@ -64,7 +64,7 @@ a {
 .title {
   font-family: 'Comfortaa', cursive;
   text-shadow: 2px 1px black;
-  font-size: 50px;
+  font-size: 55px;
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 600;
@@ -79,7 +79,7 @@ a {
   padding: 0 10px 5px 4px;
   border-radius: 2px;
   text-shadow: 1px 1px black;
-  background-color: rgba(250, 255, 255, 0.32);
+  background-color: rgba(250, 255, 255, 0.4);
   margin-left: 5px;
 }
 .categories a {
@@ -101,7 +101,7 @@ a {
   text-align: center;
 }
 .description {
-  padding: 3px;
+  padding: 5px;
   margin: 7px 0;
   background-color: rgba(254, 255, 255, 0.85);
   width: 100%;
@@ -114,7 +114,7 @@ a {
   font-family: "Times New Roman", Times, 'Comfortaa';
   font-size: 22px;
   padding: 3px;
-  background-color: rgba(128, 133, 133, 0.32);
+  background-color: rgba(112, 117, 117, 0.32);
 }
 .photo-box {
   border-left: 15px solid black;
@@ -122,4 +122,27 @@ a {
   background-color: black;
   margin-bottom: 20px;
   overflow: hidden;
+}
+.photo-box:hover {
+  border-left: 15px solid white;
+  border-right: 15px solid white;
+  cursor: pointer;
+}
+.twitter-logo {
+  height: 50px;
+  background-color: white;
+  padding: 3px 10px 3px 10px;
+  margin-top: 31px;
+}
+.twitter-logo:hover {
+  background-color: #00ae90;
+}
+.facebook-logo {
+  height: 50px;
+  background-color: white;
+  padding-right: 3px;
+  padding-left: 2px;
+}
+.facebook-logo:hover {
+  background-color: #00ae90;
 }

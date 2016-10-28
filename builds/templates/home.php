@@ -5,7 +5,7 @@
 </div>
 <div class="container-fluid ng-scope">
     <div class="row">
-        <div class="col-xs-3">
+        <div class="col-xs-3" style="position: fixed; float:left;">
             <ul class="categories">
                 <h2>Categories</h2>
                 <li><a><h5>Amphibians <span class="caret"></span></h5></a></li>
@@ -13,10 +13,11 @@
                 <li><a><h5>Micro-invertebrates<span class="caret"></span></h5></a></li>
                 <li><a><h5>Macro-invertebrates<span class="caret"></span></h5></a></li>
                 <li><a><h5>Plants<span class="caret"></span></h5></a></li>
+                <li><a><h5>Random<span class="caret"></span></h5></a></li>
                 <li><a><h5>Sea Life<span class="caret"></span></h5></a></li>
             </ul>
         </div>
-        <div class="col-xs-9">
+        <div class="col-xs-9" style="float:right;">
             <!--Featured Photo-->
             <div class="col-xs-11 col-sm-10 ">
                 <span class="photo-of-day"> Photo of the Day | Salticidae Spider</span>
@@ -29,10 +30,12 @@
                     For more photos and videos of this spider <a>click here</a>.
                 </div>
             </div>
+            <!-- Your share button code -->
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5812f025935d1de8"></script>             <!--            <a href="https://twitter.com/share" data-show-count="false"><img class="twitter-logo" src="/micropics/builds/images/Twitter_logo_initial.png"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+<!--            <br>-->
+<!--            <a href="http://www.facebook.com/sharer.php?u=www.micro-pics.com&t=title"><img class="facebook-logo" src="/micropics/builds/images/facebook-logo.png"></a>-->
         </div>
-
     </div>
-
     <div class="row">
         <div class="col-xs-3"></div>
         <!--Featured Photo-->
@@ -45,39 +48,40 @@
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="photo-box">
-                    <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg"
+                    <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH5.jpg"
                          width="100%">
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="photo-box">
-                    <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg"
+                    <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH6.jpg"
                          width="100%">
                 </div>
             </div>
         </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-3"></div>
-            <div class="col-xs-9">
-                <div class="col-xs-6 col-sm-4">
-                    <div class="photo-box">
-                        <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg"
-                             width="100%">
-                    </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-9">
+            <div class="col-xs-6 col-sm-4">
+                <div class="photo-box">
+                    <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH1.jpg"
+                         width="100%">
                 </div>
-                <div class="col-xs-6 col-sm-4">
-                    <div class="photo-box">
-                        <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg"
-                             width="100%">
-                    </div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <div class="photo-box">
+                    <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH2.jpg"
+                         width="100%">
                 </div>
-                <div class="col-xs-6 col-sm-4">
-                    <div class="photo-box">
-                        <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg"
-                             width="100%">
-                    </div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <div class="photo-box">
+                    <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH3.jpg"
+                         width="100%">
                 </div>
             </div>
         </div>
     </div>
+</div>
+

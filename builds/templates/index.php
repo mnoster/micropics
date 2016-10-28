@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Micro Pics</title>
-    <meta name="keywords" content="Psychorigins,Psychorigins.com,academic search, google scholar, mircosoft academic search, psych origins, research, client, manager,free academic articles,PsychInfo,download">
-    <meta name="description" content="PsychOrigins.com is a free academic search engine for researchers and health clinicians">
+    <meta name="keywords" content="">
+    <meta name="description" content="Micro Pictures of bugs, plants, and more!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!--    Goog Fonts-->
@@ -57,6 +57,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
 <!--    AOS script-->
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+
 <script>
     var app = angular.module('microPics', ['ui.router']);
 

@@ -68,23 +68,23 @@
             .state("/home", {
                 //url parameters are prefixed with a colon ":"
                 url: "/home",
-                templateUrl: "/micropics/builds/templates/home.php",
                 controller: "mainController",
-                controllerAs: "mc"
+                controllerAs: "mc",
+                templateUrl: "/micropics/builds/templates/home.php"
             })
             .state("pictures", {
                 url: "/pictures",
                 templateUrl: "templates/pictures.php",
                 controller: "pictureController",
-                controllerAs: "pc",
-                resolve: {
-                    getPictures: function ($http) {
-                        return $http.get("getPictures.php")
-                            .then(function (response) {
-                                return response.data;
-                            });
-                    }
-                }
+                controllerAs: "pc"
+//                resolve: {
+//                    getPictures: function ($http) {
+//                        return $http.get("getPictures.php")
+//                            .then(function (response) {
+//                                return response.data;
+//                            });
+//                    }
+//                }
             })
             .state("videos", {
                 url: "/videos",
@@ -99,8 +99,20 @@
                 controllerAs: "cc"
             });
     });
-
     app.controller('pictureController', function (getPictures, $state, $location) {
+        var self = this;
+        self.imageSearch = function () {
+            if (self.name) {
+                $location.url('/imageSearch/' + self.name);
+            } else {
+                $location.url('/imageSearch');
+            }
+        };
+        self.reloadData = function () {
+            $state.reload();
+        };
+    });
+    app.controller('mainController', function ($state, $location) {
         var self = this;
         self.imageSearch = function () {
             if (self.name) {

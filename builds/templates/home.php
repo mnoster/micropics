@@ -3,13 +3,24 @@
         <h1 class="title">minipics</h1>
     </div>
 </div>
-<div class="container-fluid ng-scope">
+<div class="container-fluid" >
     <div class="row">
         <div class="hidden-xs col-sm-3" style="position: fixed; float:left;">
             <ul class="categories">
                 <h2>Categories</h2>
-                <li ng-click=""><a><h5>Amphibians <span class="caret"></span></h5></a></li>
-                <li><a><h5>Bugs <span class="caret"></span></h5></a></li>
+                <li><a><h5>Amphibians <span class="caret"></span></h5></a></li>
+                <li ng-click="dropdown=!dropdown"><a><h5>Bugs <span class="caret"></span></h5></a></li>
+                     <ul ng-show="dropdown">
+                        <li><a>Aphids</a></li>
+                        <li><a>Bees</a></li>
+                        <li><a>Caterpillars</a></li>
+                        <li><a>Centipede</a></li>
+                        <li><a>Ladybug</a></li>
+                        <li><a>Moth</a></li>
+                        <li><a>Spiders</a></li>
+                        <li><a>Ticks</a></li>
+                        <li><a>Unknown</a></li>
+                    </ul>
                 <li><a><h5>Human <span class="caret"></span></h5></a></li>
                 <li><a><h5>Micro-invertebrates<span class="caret"></span></h5></a></li>
                 <li><a><h5>Macro-invertebrates<span class="caret"></span></h5></a></li>
@@ -23,7 +34,7 @@
             <div class="col-xs-12 col-sm-10 ">
                 <span class="photo-of-day"> Photo of the Day | Salticidae Spider</span>
                 <div class="main-img">
-                    <img src="/micropics/builds/images/logos/LogoWhite.png" height="55px" style="position:absolute; right:0;margin:5px 44px 0 0">
+                    <img src="/micropics/builds/images/logos/LogoWhite.png" height="55px" style="position:absolute; right:0;margin:5px 38px 0 0">
                     <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg" width="100%">
                 </div>
                 <div class="description">
@@ -33,11 +44,9 @@
                     It is hanging on the end of a piece of 0.7mm lead from a pencil.<br><br>
                     For more photos and videos of this spider <a>click here</a>.
                 </div>
-
             </div>
             <!-- Your share button code -->
-            <script type="text/javascript"
-                    src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5812f025935d1de8"></script>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5812f025935d1de8"></script>
             <!--            <a href="https://twitter.com/share" data-show-count="false"><img class="twitter-logo" src="/micropics/builds/images/Twitter_logo_initial.png"></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
             <!--            <br>-->
             <!--            <a href="http://www.facebook.com/sharer.php?u=www.micro-pics.com&t=title"><img class="facebook-logo" src="/micropics/builds/images/facebook-logo.png"></a>-->
@@ -97,8 +106,7 @@
         <div class="hidden-xs col-sm-3"></div>
         <div class="col-xs-12 col-sm-9">
             <h2 class="spider-title">Spider Identification Eyes Diagram</h2>
-            <img src="/micropics/builds/images/spider-eyes-diagram.jpg"
-                 width="100%">
+            <img src="/micropics/builds/images/informationals/spider-eyes-diagram.jpg" width="100%">
             <div class="spider-list">
                 <ul>
                     <li><strong>Family Lycosidae</strong> – the Wolf Spiders</li>

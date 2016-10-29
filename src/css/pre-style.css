@@ -87,13 +87,22 @@ a {
   color: white;
   text-decoration: none;
 }
+.categories li {
+  border-bottom: 1px solid black;
+}
+.categories ul li {
+  border: none;
+  color: white;
+}
+.categories ul li:hover {
+  color: #ffa800;
+}
 .categories h5 {
   padding: 15px 0 15px 2px;
   margin: -3px 0 -3px 2px;
   letter-spacing: 2px;
   font-weight: 700;
   z-index: 100;
-  border-bottom: 1px solid black;
 }
 .categories h5:hover {
   color: #ffa800;

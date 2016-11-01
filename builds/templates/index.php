@@ -46,6 +46,11 @@
         </div>
     </div>
 </nav>
+<div class="container-fluid">
+    <div class="row title-row">
+        <h1 class="title">minipics</h1>
+    </div>
+</div>
 <ui-view></ui-view>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -59,13 +64,51 @@
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
 
 <script>
+    function openModal() {
+        document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
+<script>
     var app = angular.module('microPics', ['ui.router']);
 
     app.config(function ($stateProvider, $locationProvider, $urlRouterProvider) {
         $stateProvider.caseInsensitiveMatch = true;
         $urlRouterProvider.otherwise('/home');
         $stateProvider
-            .state("/home", {
+            .state("home", {
                 //url parameters are prefixed with a colon ":"
                 url: "/home",
                 controller: "mainController",

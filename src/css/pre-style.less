@@ -292,10 +292,15 @@ img.demo {
   opacity: 0.6;
 }
 
-.active,
-.demo:hover {
-  opacity: 1;
+
+.demo{
+  color: white;
+  &:hover {
+    cursor: pointer;
+    color: orange;
+  }
 }
+
 
 img.hover-shadow {
   transition: 0.3s

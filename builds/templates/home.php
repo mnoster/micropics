@@ -32,23 +32,30 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
             <div class="caption-container">
-                <p id="caption"></p>
+<!--                <p id="caption"></p>-->
             </div>
 
             <div class="column">
-                <img class="demo" src="" onclick="currentSlide(1)" alt="Nature">
+                <span class="demo" onclick="currentSlide(1)">1</span>
             </div>
 
             <div class="column">
-                <img class="demo" src="" onclick="currentSlide(2)" alt="Trolltunga">
+                <span class="demo" onclick="currentSlide(2)">2</span>
             </div>
 
             <div class="column">
-                <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+                <span class="demo" onclick="currentSlide(3)">3</span>
             </div>
 
             <div class="column">
-                <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+                <span class="demo" onclick="currentSlide(4)">4</span>
+            </div>
+            <div class="column">
+                <span class="demo" onclick="currentSlide(5)">5</span>
+            </div>
+
+            <div class="column">
+                <span class="demo" onclick="currentSlide(6)">6</span>
             </div>
         </div>
     </div>

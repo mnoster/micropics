@@ -1,9 +1,58 @@
-<div class="container-fluid">
-    <div class="row title-row">
-        <h1 class="title">minipics</h1>
-    </div>
-</div>
 <div class="container-fluid" >
+<!--    MODAL FOR PHOTOS-->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH5.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH6.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH3.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="column">
+                <img class="demo" src="" onclick="currentSlide(1)" alt="Nature">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="" onclick="currentSlide(2)" alt="Trolltunga">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+            </div>
+        </div>
+    </div>
+    <!--    -->
     <div class="row">
         <div class="hidden-xs col-sm-3" style="position: fixed; float:left;">
             <ul class="categories">
@@ -58,19 +107,19 @@
         <div class="col-sm-9">
             <h3 class="more-photos">More Photos</h3>
             <div class="col-xs-12 col-sm-4" data-aos="flip-up">
-                <div class="photo-box">
+                <div class="photo-box" onclick="openModal();currentSlide(1)">
                     <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH4.jpg"
                          width="100%">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4" data-aos="flip-up">
-                <div class="photo-box">
+                <div class="photo-box"  onclick="openModal();currentSlide(2)">
                     <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH5.jpg"
                          width="100%">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4" data-aos="flip-up">
-                <div class="photo-box">
+                <div class="photo-box"  onclick="openModal();currentSlide(3)">
                     <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH6.jpg"
                          width="100%">
                 </div>
@@ -81,19 +130,19 @@
         <div class=" hidden-xs col-sm-3"></div>
         <div class="col-sm-9">
             <div class="col-xs-12 col-sm-4" data-aos="flip-up">
-                <div class="photo-box">
+                <div class="photo-box"  onclick="openModal();currentSlide(4)">
                     <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH1.jpg"
                          width="100%">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4" data-aos="flip-up">
-                <div class="photo-box">
+                <div class="photo-box"  onclick="openModal();currentSlide(5)">
                     <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH2.jpg"
                          width="100%">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4" data-aos="flip-up">
-                <div class="photo-box">
+                <div class="photo-box"  onclick="openModal();currentSlide(6)">
                     <img src="/micropics/builds/images/Microscope Photos/Bugs/Spiders/SmallRedSpiderCH3.jpg"
                          width="100%">
                 </div>

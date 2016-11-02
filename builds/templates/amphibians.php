@@ -91,7 +91,7 @@
         <div class="col-sm-9" style="float:right;">
             <!--Featured Photo-->
             <div class="col-xs-12 col-sm-10 ">
-                <span class="photo-of-day"> Amphibians</span>
+                <span class="photo-of-day">Amphibians |  Foothill Yellow-legged Frog</span>
                 <div class="main-img">
                     <img src="/micropics/builds/images/logos/LogoWhite.png" height="55px" style="position:absolute; right:0;margin:8px 42px 0 0">
 <!--                    <img src="/micropics/builds/images/Microscope Photos/Frog/Froglet1.jpg" width="100%">-->
@@ -102,11 +102,10 @@
                     </video>
                 </div>
                 <div class="description">
-                    <strong> Description:</strong> This spider was found in Southern California and is part of
-                    the<strong> Salticidae Family (Jumping Spider)</strong>.
-                    Measured at .2cm in size, it has four eyes, a red face, and a dark-brown torso.
-                    It is hanging on the end of a piece of 0.7mm lead from a pencil.<br><br>
-                    For more photos and videos of this spider <a>click here</a>.
+                    <strong> Description:</strong> This frog was found in Santa Cruz, in Northern California and is most-likely a
+                    <strong> Foothill Yellow-legged Frog</strong>.
+                    Measured at 1.4in in size, appears to be a juvenile.
+                    For more photos and videos of this frog <a>click here</a>.
                 </div>
             </div>
             <!-- Your share button code -->
@@ -169,7 +168,7 @@
     <div class="row">
         <div class="hidden-xs col-sm-3"></div>
         <div class="col-xs-12 col-sm-9">
-            <h2 class="spider-title">Amphibians</h2>
+            <h2 class="spider-title">Amphibians Population Mapping</h2>
             <img src="/micropics/builds/images/informationals/amphibiansLocation.png" width="100%">
             <div class="spider-list">
                 <ul>

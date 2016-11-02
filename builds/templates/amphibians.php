@@ -64,7 +64,7 @@
         <div class="hidden-xs col-sm-3" style="position: fixed; float:left;">
             <ul class="categories">
                 <h2>Categories</h2>
-                <li  ng-click="dropdown1=!dropdown1"><a><h5>Amphibians <span class="caret"></span></h5></a></li>
+                <li  ng-click="dropdown1=!dropdown1"><a><h5>Amphibians</h5></a></li>
                 <ul ng-show="dropdown1">
 
                 </ul>
@@ -102,9 +102,9 @@
                     </video>
                 </div>
                 <div class="description">
-                    <strong> Description:</strong> This frog was found in Santa Cruz, in Northern California and is most-likely a
+                    <strong> Description:</strong> This frog was found in Santa Cruz in Northern California, and is most-likely a
                     <strong> Foothill Yellow-legged Frog</strong>.
-                    Measured at 1.4in in size, appears to be a juvenile.
+                    Measured at 1.2in in size, appears to be a juvenile.
                     For more photos and videos of this frog <a>click here</a>.
                 </div>
             </div>

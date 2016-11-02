@@ -3,6 +3,12 @@
   color: white;
   text-shadow: 1px 1px black;
 }
+.text-content {
+  padding: 7px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 3px;
+}
 body {
   background: url('/micropics/builds/images/forest.jpg') no-repeat center fixed;
 }
@@ -173,6 +179,12 @@ a {
 .spider-title {
   color: white;
   text-shadow: 1px 1px black;
+}
+.did-you-know {
+  padding: 7px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 3px;
 }
 .row > .column {
   padding: 0 8px;

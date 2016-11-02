@@ -27,7 +27,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" ui-sref="main-page"><img  class="logo" src="">MC</a>
+            <a class="navbar-brand" ui-sref="home"><img class="logo" src="/micropics/builds/images/logos/LogoWhite.png" height="200%" width="auto" style="margin-top: -8px"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">

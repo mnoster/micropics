@@ -7,6 +7,12 @@
   color: white;
   text-shadow: 1px 1px black;
 }
+.text-content{
+  padding:7px;
+  background-color: white;
+  margin-top:10px;
+  border-radius: 3px;
+}
 //interpolated variables
 @navigation: navbar-inverse, navbar-nav;
 
@@ -181,6 +187,12 @@ a{
   color: white;
   text-shadow: 1px 1px black;
 }
+.did-you-know{
+  .text-content;
+}
+
+
+
 //MODAL FOR PHOTOS
 .row > .column {
   padding: 0 8px;
@@ -210,7 +222,6 @@ a{
   overflow: auto;
   background-color: black;
 }
-
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -309,3 +320,10 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+.close{
+  opacity: 1;
+  color:white;
+  &:hover, &:focus{
+    color:white;
+  }
+ }

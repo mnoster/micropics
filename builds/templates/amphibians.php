@@ -64,7 +64,7 @@
         <div class="hidden-xs col-sm-3" style="position: fixed; float:left;">
             <ul class="categories">
                 <h2>Categories</h2>
-                <li  ng-click="dropdown1=!dropdown1"><a><h5>Amphibians <span class="caret"></span></h5></a></li>
+                <li  ng-click="dropdown1=!dropdown1"><a><h5>Amphibians</h5></a></li>
                 <ul ng-show="dropdown1">
 
                 </ul>
@@ -102,9 +102,9 @@
                     </video>
                 </div>
                 <div class="description">
-                    <strong> Description:</strong> This frog was found in Santa Cruz, in Northern California and is most-likely a
+                    <strong> Description:</strong> This frog was found in Santa Cruz in Northern California, and is most-likely a
                     <strong> Foothill Yellow-legged Frog</strong>.
-                    Measured at 1.4in in size, appears to be a juvenile.
+                    Measured at 1.2in in size, appears to be a juvenile. The photos below are of the same species of frog but as a tadpole with both front and hind legs and a tadpole with no legs.
                     For more photos and videos of this frog <a>click here</a>.
                 </div>
             </div>
@@ -170,34 +170,14 @@
         <div class="col-xs-12 col-sm-9">
             <h2 class="spider-title">Amphibians Population Mapping</h2>
             <img src="/micropics/builds/images/informationals/amphibiansLocation.png" width="100%">
-            <div class="spider-list">
-                <ul>
-                    <li><strong>Family Lycosidae</strong> – the Wolf Spiders</li>
-                    <li><strong>Family Salticidae</strong> – the Jumping Spiders</li>
-                    <li><strong>Family Salticidae, genus Lyssomanes</strong> – the Magnolia Green Jumpers</li>
-                    <li><strong>Family Araneidae</strong> – the Orbweavers</li>
-                    <li><strong>Family Pisauridae, genus Dolomedes</strong> – the Fishing Spiders</li>
-                    <li><strong>Family Pisauridae, genus Pisaurina</strong> – the Nursery Web Spiders</li>
-                    <li><strong>Family Ctenidae</strong> – the Wandering Spiders</li>
-                    <li><strong>Family Oxyopidae</strong> – the Lynx Spiders</li>
-                    <li><strong>Family Philodromidae</strong> – the Running Crab Spiders</li>
-                    <li><strong>Family Dysderidae</strong> – the Woodlouse Hunters</li>
-                    <li><strong>Family Tetragnathidae, genus Tetragnatha</strong> – the Longjawed Orbweavers</li>
-                    <li><strong>Family Thomisidae, genus Xysticus</strong> – the Ground Crab Spiders</li>
-                    <li><strong>Family Agelenidae, genus Eratigena</strong> – the Funnel Weavers</li>
-                    <li><strong>Family Agelenidae, genus Agelenopsis</strong> – the Grass Spiders (aka Funnel Weavers)</li>
-                    <li><strong>Family Selenopidae, genus Selenops</strong> – the Flatties (aka Crab Spiders)</li>
-                    <li><strong>Family Sparassidae, genus Heteropoda</strong> – the Huntsman (aka Giant Crab Spiders)</li>
-                    <li><strong>Family Sparassidae, genus Olios</strong> – Giant Crab Spiders (aka Huntsman)</li>
-                    <li><strong>Family Sicariidae, genus Loxosceles</strong> – the Brown Spiders (includes the Brown Recluse)</li>
-                    <li><strong>Family Uloboridae, genus Hyptiotes</strong> – the Triangle Weavers</li>
-                    <li><strong>Family Zoropsidae, species Zoropsis spinimana</strong> – the False Wolf Spider</li>
-                    <li><strong>Family Deinopidae, species Deinopis spinosa</strong> – the Net-casting Spider (Ogre-faced Spider);four other eyes are not front visible</li>
-                    <li><strong>Family Diguetidae, genus Diguetia</strong> – the Desertshrub Spiders</li>
-                    <li><strong>Family Antrodiaetidae, genus Antrodiaetus</strong> – the Folding-door Spider (aka Turret Spiders)</li>
-                    <li><strong>Family Segestriidae</strong> – the Tube Web Spiders</li>
-                    <li><strong>Family Scytodidae</strong> – the Spitting Spiders</li>
-                </ul>
+            <div class="did-you-know">
+                <h2>Did you know?</h2>
+                <p><strong>Some frogs don't have a tadpole stage!</strong>
+                    <br>
+                    "Although the vast majority of frogs and toads go through the tadpole stage, there are exceptions to every rule and there are several families of frogs in with direct development from egg to froglet.
+                    In some frogs the eggs are carried by the mother until froglets emerge.
+                    One such frog is the very bizarre looking, surinam toad, Pipa pipa, in which fertilized eggs are rolled onto the frog’s back where they become enclosed in tissue, and develop under the frog’s skin, until little froglets emerge at the end of the cycle."
+                </p>
             </div>
         </div>
     </div>

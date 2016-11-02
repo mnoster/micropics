@@ -64,7 +64,7 @@
         <div class="hidden-xs col-sm-3" style="position: fixed; float:left;">
             <ul class="categories">
                 <h2>Categories</h2>
-                <li  ui-sref="amphibians"><a><h5>Amphibians <span class="caret"></span></h5></a></li>
+                <li  ui-sref="amphibians"><a><h5>Amphibians</h5></a></li>
                 <ul>
 
 

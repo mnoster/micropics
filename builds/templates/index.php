@@ -115,6 +115,13 @@
                 controllerAs: "mc",
                 templateUrl: "/micropics/builds/templates/home.php"
             })
+            .state("amphibians", {
+                //url parameters are prefixed with a colon ":"
+                url: "/amphibians",
+                controller: "amphibiansController",
+                controllerAs: "ac",
+                templateUrl: "/micropics/builds/templates/amphibians.php"
+            })
             .state("pictures", {
                 url: "/pictures",
                 templateUrl: "templates/pictures.php",
@@ -156,6 +163,19 @@
         };
     });
     app.controller('mainController', function ($state, $location) {
+        var self = this;
+        self.imageSearch = function () {
+            if (self.name) {
+                $location.url('/imageSearch/' + self.name);
+            } else {
+                $location.url('/imageSearch');
+            }
+        };
+        self.reloadData = function () {
+            $state.reload();
+        };
+    });
+    app.controller('amphibiansController', function ($state, $location) {
         var self = this;
         self.imageSearch = function () {
             if (self.name) {

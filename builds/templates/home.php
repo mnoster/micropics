@@ -64,9 +64,13 @@
         <div class="hidden-xs col-sm-3" style="position: fixed; float:left;">
             <ul class="categories">
                 <h2>Categories</h2>
-                <li><a><h5>Amphibians <span class="caret"></span></h5></a></li>
-                <li ng-click="dropdown=!dropdown"><a><h5>Bugs <span class="caret"></span></h5></a></li>
-                     <ul ng-show="dropdown">
+                <li  ui-sref="amphibians"><a><h5>Amphibians <span class="caret"></span></h5></a></li>
+                <ul>
+
+
+                </ul>
+                <li ng-click="dropdown2=!dropdown2"><a><h5>Bugs <span class="caret"></span></h5></a></li>
+                     <ul ng-show="dropdown2">
                         <li><a>Aphids</a></li>
                         <li><a>Bees</a></li>
                         <li><a>Caterpillars</a></li>

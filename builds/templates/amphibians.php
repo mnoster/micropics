@@ -65,12 +65,9 @@
             <ul class="categories">
                 <h2>Categories</h2>
                 <li  ng-click="dropdown1=!dropdown1"><a><h5>Amphibians</h5></a></li>
-                <ul ng-show="dropdown1">
-
-                </ul>
                 <li ng-click="dropdown2=!dropdown2"><a><h5>Bugs <span class="caret"></span></h5></a></li>
                 <ul ng-show="dropdown2">
-                    <li><a>Aphids</a></li>
+                    <li ui-sref="aphids"><a>Aphids</a></li>
                     <li><a>Bees</a></li>
                     <li><a>Caterpillars</a></li>
                     <li><a>Centipede</a></li>

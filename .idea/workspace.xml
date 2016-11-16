@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4c2a33-9ba4-415c-b6a6-973eee1031fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/images/Microscope Photos/Bugs/Aphids/purpleAphid.mov" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/images/Microscope Photos/Bugs/Aphids/soloYellowAphid.mov" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/images/Microscope Photos/Bugs/Aphids/yellowAphid.mov" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/templates/amphibians.php" afterPath="$PROJECT_DIR$/builds/templates/amphibians.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/templates/home.php" afterPath="$PROJECT_DIR$/builds/templates/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/templates/index.php" afterPath="$PROJECT_DIR$/builds/templates/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/templates/aphids.php" afterPath="$PROJECT_DIR$/builds/templates/aphids.php" />
     </list>
     <ignored path="micropics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aphids.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aphids.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/builds/templates/aphids.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+            <state relative-caret-position="-30">
+              <caret line="96" column="106" selection-start-line="96" selection-start-column="106" selection-end-line="96" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -80,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amphibians.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="amphibians.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builds/templates/amphibians.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="1035">
               <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
               <folding />
             </state>
@@ -133,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/css/pre-style.less" />
         <option value="$PROJECT_DIR$/builds/templates/index.php" />
         <option value="$PROJECT_DIR$/builds/templates/home.php" />
-        <option value="$PROJECT_DIR$/builds/templates/aphids.php" />
         <option value="$PROJECT_DIR$/builds/templates/amphibians.php" />
+        <option value="$PROJECT_DIR$/builds/templates/aphids.php" />
       </list>
     </option>
   </component>
@@ -422,12 +417,12 @@
       <workItem from="1477611690964" duration="11418000" />
       <workItem from="1477677077370" duration="16955000" />
       <workItem from="1478041360784" duration="5992000" />
-      <workItem from="1479270247573" duration="1879000" />
+      <workItem from="1479270247573" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65505000" />
+    <option name="totallyTimeSpent" value="65981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +435,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="704" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21001616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -448,7 +443,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1503268" sideWeight="0.49050087" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1503268" sideWeight="0.49050087" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -723,18 +718,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/builds/templates/aphids.php">
+    <entry file="file://$PROJECT_DIR$/builds/templates/amphibians.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        <state relative-caret-position="1035">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/builds/templates/amphibians.php">
+    <entry file="file://$PROJECT_DIR$/builds/templates/aphids.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        <state relative-caret-position="-30">
+          <caret line="96" column="106" selection-start-line="96" selection-start-column="106" selection-end-line="96" selection-end-column="106" />
           <folding />
         </state>
       </provider>

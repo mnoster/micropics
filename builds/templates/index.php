@@ -122,6 +122,13 @@
                 controllerAs: "ac",
                 templateUrl: "/micropics/builds/templates/amphibians.php"
             })
+            .state("aphids", {
+                //url parameters are prefixed with a colon ":"
+                url: "/aphids",
+                controller: "aphidsController",
+                controllerAs: "aph",
+                templateUrl: "/micropics/builds/templates/aphids.php"
+            })
             .state("pictures", {
                 url: "/pictures",
                 templateUrl: "templates/pictures.php",

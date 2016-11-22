@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4c2a33-9ba4-415c-b6a6-973eee1031fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/images/Microscope Photos/Bugs/Aphids/purpleAphid.mov" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/images/Microscope Photos/Bugs/Aphids/soloYellowAphid.mov" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/images/Microscope Photos/Bugs/Aphids/yellowAphid.mov" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/templates/amphibians.php" afterPath="$PROJECT_DIR$/builds/templates/amphibians.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/templates/home.php" afterPath="$PROJECT_DIR$/builds/templates/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/templates/index.php" afterPath="$PROJECT_DIR$/builds/templates/index.php" />
     </list>
     <ignored path="micropics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +37,7 @@
       <file leaf-file-name="pre-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/pre-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
+            <state relative-caret-position="4470">
               <caret line="298" column="1" selection-start-line="298" selection-start-column="1" selection-end-line="298" selection-end-column="1" />
               <folding />
             </state>
@@ -53,7 +47,7 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builds/templates/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="1095">
               <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="44" />
               <folding />
             </state>
@@ -63,27 +57,27 @@
       <file leaf-file-name="aphids.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builds/templates/aphids.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+            <state relative-caret-position="15">
+              <caret line="96" column="106" selection-start-line="96" selection-start-column="106" selection-end-line="96" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/builds/templates/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
+            <state relative-caret-position="-29">
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amphibians.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="amphibians.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builds/templates/amphibians.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="1035">
               <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
               <folding />
             </state>
@@ -133,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/css/pre-style.less" />
         <option value="$PROJECT_DIR$/builds/templates/index.php" />
         <option value="$PROJECT_DIR$/builds/templates/home.php" />
-        <option value="$PROJECT_DIR$/builds/templates/aphids.php" />
         <option value="$PROJECT_DIR$/builds/templates/amphibians.php" />
+        <option value="$PROJECT_DIR$/builds/templates/aphids.php" />
       </list>
     </option>
   </component>
@@ -150,7 +144,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="704" />
+    <option name="height" value="701" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -345,6 +337,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,12 +416,13 @@
       <workItem from="1477611690964" duration="11418000" />
       <workItem from="1477677077370" duration="16955000" />
       <workItem from="1478041360784" duration="5992000" />
-      <workItem from="1479270247573" duration="1879000" />
+      <workItem from="1479270247573" duration="2691000" />
+      <workItem from="1479797058433" duration="100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65505000" />
+    <option name="totallyTimeSpent" value="66417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,16 +434,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="704" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="701" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21001616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21324718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.50949913" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1503268" sideWeight="0.49050087" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14942528" sideWeight="0.49050087" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -699,17 +694,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/builds/templates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builds/templates/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="1095">
           <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="44" />
           <folding />
         </state>
@@ -717,24 +704,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/pre-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="4470">
           <caret line="298" column="1" selection-start-line="298" selection-start-column="1" selection-end-line="298" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builds/templates/aphids.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/builds/templates/amphibians.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="1035">
           <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builds/templates/aphids.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="96" column="106" selection-start-line="96" selection-start-column="106" selection-end-line="96" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builds/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
           <folding />
         </state>
       </provider>

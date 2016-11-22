@@ -94,7 +94,7 @@
                     <!--                    <img src="/micropics/builds/images/Microscope Photos/Frog/Froglet1.jpg" width="100%">-->
                     <video width="100%" height="auto" controls>
                         <!--                        <source src="" type="video/mp4">-->
-                        <source src="/micropics/builds/images/Microscope Photos/Bugs/Aphids/soloYellowAphid.mp4" type="video/mp4">
+                        <source src="/micropics/builds/images/Microscope Photos/Bugs/Aphids/greenbugs2.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
